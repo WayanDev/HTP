@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+
+</head>
+
+<body>
+    <style type="text/css">
+        /* css internal adalah css yang ada didalam html */
+        /*ini contoh selector tag*/
+        p {
+            color: white;
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 15pt;
+        }
+
+        body {
+            background-color: darkblue;
+        }
+
+        /* grouping didalam css*/
+        fieldset,
+        legend {
+            border: red groove 5px;
+        }
+
+        /* ini contoh class*/
+        .ubahwarna {
+            color: orange;
+        }
+    </style>
+    <!-- ini adalah contoh tag dan element 
+    yang tidak memakai attribute nilai-->
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <h1 style="font-size: large;">
+                        <marquee direction="right" scrolldelay="100">
+                            Welcome To My Landing Page
+                        </marquee>
+                    </h1>
+                    <p align="justify">
+                        Ini merupakan website pertama saya, untuk memenuhi tugas Studi Independen di PT Hendevane
+                        Indonesia
+                        pada tahun 2023 pada program MSIB Kampus merdeka Batch 4
+                    </p>
+                    <!--ini contoh css inline-->
+                    <p style="color:bisque; text-align: center; font-family: 'Courier New', Courier, monospace;">
+                        Ini merupakan website pertama saya, untuk memenuhi tugas Studi Independen di PT Hendevane
+                        Indonesia
+                        pada tahun 2023 pada program MSIB Kampus merdeka Batch 4
+                    </p>
+
+                    <p>
+                        <u class="ubahwarna">ini adalah website pertama saya</u><br>
+                        Ini merupakan website pertama saya, untuk memenuhi tugas Studi Independen di PT Hendevane
+                        Indonesia
+                        pada tahun 2023 pada program MSIB Kampus merdeka Batch 4
+                    </p>
+                    <fieldset>
+                        <legend>
+                            <font color="white" size="5" face="calibri">
+                                Tentang Saya
+                            </font>
+                        </legend>
+                        <ol type="A">
+                            <li>Pendidikan
+                                <ul type="square">
+                                    <li>SDN Wergonayan</li>
+                                    <li>SMPN 2 Mirit</li>
+                                    <li>SMK Tamtama 2 Prembun</li>
+                                    <li>Politeknik Negeri Semarang
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>Hobby
+                                <ul type="circle">
+                                    <li>Olahraga</li>
+                                    <li>Ngoding</li>
+                                    <li>Membaca</li>
+                                </ul>
+                            </li>
+                            <li>Makanan Kesukaan</li>
+                            <ul type="disc">
+                                <li>Bakso</li>
+                                <li>Kentang Goreng</li>
+                            </ul>
+
+                        </ol>
+                    </fieldset>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
