@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Produk</title>
+</head>
+<body>
+    <form action="#">
+        <table border="0" align="center" width="400px" align="center" cellspacing="1" cellpadding="5">
+            <thead>
+                <tr bgcolor="red">
+                    <th colspan="2" align="center">
+                        Form Register Produk
+                    </th>          
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="200px">Nama Produk</td>
+                    <td width="200px"><input size="25" type="text" name="name" id="nama"></td>
+                </tr>
+                <tr>
+                    <td width="200px">Jenis Produk</td>
+                    <td>
+                        <select name="pilihan" id="pilihan">
+                            <option value="pilih" selected="true" disabled>-- Kategori Produk --</option>
+                            <option value="1">Makanan</option>
+                            <option value="2">Minuman</option>
+                            <option value="3">Kecantikan</option>
+                            <option value="4">Olahraga</option>
+                            <option value="5">Rumah Tangga</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td width="200px">Harga</td>
+                    <td width="200px"><input size="25" type="text" name="harga" id="harga"></td>
+                </tr>
+                <tr>
+                    <td width="200px">Stok</td>
+                    <td width="200px"><input size="25" type="text" name="stok" id="stok"></td>
+                </tr>
+                <tr>
+                    <td width="200px">Photo</td>
+                    <td width="200px"><input size="25" type="file" name="photo" id="photo"></td>
+                </tr>
+            </tbody>
+            <tfoot align="center">
+                <tr bgcolor="red">
+                    <td colspan="2">
+                        <input type="submit" name="submit" value="Kirim">
+                        <input type="reset" name="batal" value="Batal">
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+    
+</body>
+</html>
